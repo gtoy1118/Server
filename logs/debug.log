@@ -1,0 +1,143 @@
+[29May2023 00:44:48.632] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 35.1.37, --fml.mcpVersion, 20201102.104115, --fml.mcVersion, 1.16.4, --fml.forgeGroup, net.minecraftforge]
+[29May2023 00:44:48.664] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_371 by Oracle Corporation
+[29May2023 00:44:48.672] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,testharness,fmlclient,fmlserver]
+[29May2023 00:44:48.752] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : []
+[29May2023 00:44:48.885] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,eventbus,object_holder_definalize,runtime_enum_extender,accesstransformer,capability_inject_definalize,runtimedistcleaner]
+[29May2023 00:44:48.914] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[29May2023 00:44:48.919] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: []
+[29May2023 00:44:48.971] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[29May2023 00:44:48.972] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[29May2023 00:44:48.973] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[29May2023 00:44:48.973] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[29May2023 00:44:48.973] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[29May2023 00:44:48.973] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/]: Injecting tracing printstreams for STDOUT/STDERR.
+[29May2023 00:44:48.976] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 35.1
+[29May2023 00:44:48.977] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 35.1 loading
+[29May2023 00:44:48.977] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 8.0.9+86+master.3cf110c
+[29May2023 00:44:48.977] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Initializing modjar URL handler
+[29May2023 00:44:48.978] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 3.0.1+61+master.47bca0e
+[29May2023 00:44:48.978] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found EventBus version : 4.0.0+65+master.6080a3f
+[29May2023 00:44:48.978] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[29May2023 00:44:48.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 4.0.3+13+master.5579913
+[29May2023 00:44:48.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 3.2.0+13+master.8ddb2cc
+[29May2023 00:44:48.982] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 3
+[29May2023 00:44:49.287] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29May2023 00:44:49.288] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[29May2023 00:44:49.291] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[29May2023 00:44:49.367] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[29May2023 00:44:49.367] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[29May2023 00:44:49.371] [main/DEBUG] [mixin/]: Mixin bootstrap service org.spongepowered.asm.service.mojang.MixinServiceLaunchWrapperBootstrap is not available: LaunchWrapper is not available
+[29May2023 00:44:49.381] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in sun.misc.Launcher$AppClassLoader@279f2327
+[29May2023 00:44:49.444] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/Users/admin/Server/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[29May2023 00:44:49.468] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[29May2023 00:44:49.468] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(4f56a0a2)
+[29May2023 00:44:49.469] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(4f56a0a2)
+[29May2023 00:44:49.469] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(4f56a0a2)
+[29May2023 00:44:49.470] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(4f56a0a2)
+[29May2023 00:44:49.470] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(4f56a0a2)
+[29May2023 00:44:49.473] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[29May2023 00:44:49.473] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[29May2023 00:44:49.473] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[29May2023 00:44:49.474] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing GAMEDIR directory : /Users/admin/Server
+[29May2023 00:44:49.475] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /Users/admin/Server
+[29May2023 00:44:49.476] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making MODSDIR directory : /Users/admin/Server/mods
+[29May2023 00:44:49.477] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created MODSDIR directory : /Users/admin/Server/mods
+[29May2023 00:44:49.477] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /Users/admin/Server/mods
+[29May2023 00:44:49.477] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making CONFIGDIR directory : /Users/admin/Server/config
+[29May2023 00:44:49.478] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created CONFIGDIR directory : /Users/admin/Server/config
+[29May2023 00:44:49.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /Users/admin/Server/config
+[29May2023 00:44:49.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /Users/admin/Server/config/fml.toml
+[29May2023 00:44:49.478] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[29May2023 00:44:50.165] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /Users/admin/Server/config/fml.toml is not correct. Correcting
+[29May2023 00:44:50.171] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[29May2023 00:44:50.220] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Making default config directory directory : /Users/admin/Server/defaultconfigs
+[29May2023 00:44:50.221] [main/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Created default config directory directory : /Users/admin/Server/defaultconfigs
+[29May2023 00:44:50.221] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[29May2023 00:44:50.224] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[29May2023 00:44:50.224] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using fmlserver as launch service
+[29May2023 00:44:50.434] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Received command line version data  : MC Version: '1.16.4' MCP Version: '20201102.104115' Forge Version: '35.1.37' Forge group: 'net.minecraftforge'
+[29May2023 00:44:50.435] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found JAR asm at path /Users/admin/Server/libraries/org/ow2/asm/asm/9.0/asm-9.0.jar
+[29May2023 00:44:50.435] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found probable library path /Users/admin/Server/libraries
+[29May2023 00:44:50.435] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Found forge path /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar is present
+[29May2023 00:44:50.436] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: SRG MC at /Users/admin/Server/libraries/net/minecraft/server/1.16.4-20201102.104115/server-1.16.4-20201102.104115-srg.jar is present
+[29May2023 00:44:50.436] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: MC Extras at /Users/admin/Server/libraries/net/minecraft/server/1.16.4-20201102.104115/server-1.16.4-20201102.104115-extra.jar is present
+[29May2023 00:44:50.436] [main/DEBUG] [net.minecraftforge.fml.loading.LibraryFinder/CORE]: Forge patches at /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar is present
+[29May2023 00:44:50.488] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 0 language providers
+[29May2023 00:44:50.489] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding forge as a language from /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar
+[29May2023 00:44:50.491] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Adding file:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar to languageloader classloader
+[29May2023 00:44:51.103] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 2 language providers
+[29May2023 00:44:51.104] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 35.1
+[29May2023 00:44:51.123] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1
+[29May2023 00:44:51.125] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[29May2023 00:44:51.126] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[29May2023 00:44:51.126] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[29May2023 00:44:51.126] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[29May2023 00:44:51.127] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[29May2023 00:44:51.127] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[29May2023 00:44:51.128] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[29May2023 00:44:51.128] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[29May2023 00:44:51.142] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[29May2023 00:44:51.178] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(maven libs:null),(exploded directory:null),(minecraft:null)
+[29May2023 00:44:51.217] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar
+[29May2023 00:44:51.255] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.4-35.1.37-universal.jar with {forge} mods - versions {35.1.37}
+[29May2023 00:44:51.270] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar with language javafml
+[29May2023 00:44:51.300] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod fieldtomethodtransformers with Javascript path META-INF/fieldtomethodtransformers.js
+[29May2023 00:44:51.301] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod META-INF/fieldtomethodtransformers.js
+[29May2023 00:44:51.301] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar
+[29May2023 00:44:51.303] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.16.4-35.1.37-server.jar with {minecraft} mods - versions {1.16.4}
+[29May2023 00:44:51.353] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar with language minecraft
+[29May2023 00:44:51.363] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory requirements
+[29May2023 00:44:51.364] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mandatory mod requirements missing
+[29May2023 00:44:54.066] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[29May2023 00:44:54.066] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[29May2023 00:44:54.069] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[29May2023 00:44:54.070] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[29May2023 00:44:54.070] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[29May2023 00:44:54.071] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[29May2023 00:44:54.072] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from META-INF/fieldtomethodtransformers.js
+[29May2023 00:44:54.828] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[29May2023 00:44:54.836] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@30c31dd7 to Target : CLASS {Lnet/minecraft/potion/EffectInstance;} {} {V}
+[29May2023 00:44:54.837] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2db2cd5 to Target : CLASS {Lnet/minecraft/block/FlowingFluidBlock;} {} {V}
+[29May2023 00:44:54.837] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@70e659aa to Target : CLASS {Lnet/minecraft/item/BucketItem;} {} {V}
+[29May2023 00:44:54.838] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@615f972 to Target : CLASS {Lnet/minecraft/block/StairsBlock;} {} {V}
+[29May2023 00:44:54.838] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@285f09de to Target : CLASS {Lnet/minecraft/block/FlowerPotBlock;} {} {V}
+[29May2023 00:44:54.838] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@73393584 to Target : CLASS {Lnet/minecraft/item/FishBucketItem;} {} {V}
+[29May2023 00:44:54.838] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[29May2023 00:44:54.999] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[29May2023 00:44:54.999] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[29May2023 00:44:54.999] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)]
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)
+[29May2023 00:44:55.000] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)]
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(4f56a0a2)]
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-server.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-server.jar)]
+[29May2023 00:44:55.001] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleModLauncher.Resource(forge-1.16.4-35.1.37-universal.jar:/Users/admin/Server/libraries/net/minecraftforge/forge/1.16.4-35.1.37/forge-1.16.4-35.1.37-universal.jar)]
+[29May2023 00:44:55.002] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
+[29May2023 00:44:56.861] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[29May2023 00:44:56.873] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[29May2023 00:44:57.125] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.NoSuchMethodError: sun.security.util.ManifestEntryVerifier.<init>(Ljava/util/jar/Manifest;)V
+[29May2023 00:44:57.126] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.SecureJarHandler.createCodeSource(SecureJarHandler.java:66)
+[29May2023 00:44:57.132] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:275)
+[29May2023 00:44:57.132] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136)
+[29May2023 00:44:57.133] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98)
+[29May2023 00:44:57.133] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+[29May2023 00:44:57.134] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Class.forName0(Native Method)
+[29May2023 00:44:57.134] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Class.forName(Class.java:348)
+[29May2023 00:44:57.134] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51)
+[29May2023 00:44:57.135] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37)
+[29May2023 00:44:57.135] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54)
+[29May2023 00:44:57.136] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72)
+[29May2023 00:44:57.136] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82)
+[29May2023 00:44:57.136] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66)
+[29May2023 00:44:57.137] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63)
+[29May2023 00:44:57.137] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60)
+[29May2023 00:44:57.137] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57)
